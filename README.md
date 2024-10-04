@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GamerLink
+GamerLink is a platform designed to revolutionize game streaming, enabling users to stream, watch, and interact with gaming content in real-time. With seamless integration of interactive features, viewers can engage with streams and streamers can manage their content effortlessly.
 
-## Getting Started
+## Key Features
+ 
+### Stream Creation:
+Users can create game streams and broadcast their gameplay to viewers around the world.
 
-First, run the development server:
+### Interactive Features:
+Real-time viewer interaction, including live chat and on-stream reactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### User-Friendly Interface:
+Designed with an intuitive interface, users can quickly create boards, join discussions, and manage tasks without a steep learning curve.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+1. **NextJS** for frontend and backend part.
+2. **PostgreSQL** as database
+3. **Livekit** for Realtime streaming and chat.
+4. **NextAuth** for authentication.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Some Snapshots
+<div align="center" style={display:"flex"; flex-direction:"column"; margin-bottom:"2rem"}>
+  <img src="https://github.com/tarunchaudhary1/gamerLink/blob/master/public/dashboard.png?raw=true" height="300px">
+  <p>Dashboard</p>
+</div>
+<div align="center" style={display:"flex"; flex-direction:"column"; margin-bottom:"2rem"}>
+  <img src="https://github.com/tarunchaudhary1/gamerLink/blob/master/public/streamer_side.png?raw=true" height="300px">
+  <p>Streamer side while streaming</p>
+</div>
+<div align="center" style={display:"flex"; flex-direction:"column"; margin-bottom:"2rem"}>
+  <img src="https://github.com/tarunchaudhary1/gamerLink/blob/master/public/viewer_side.png?raw=true" height="300px">
+  <p>User side while watching</p>
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## How to run it locally
+- Clone the repository.
+- Open your favourite editor.
+- Go to terminal and do npm install to install dependencies.
+- Get your livekit api keys, Uploadthing token and postgreSQL database url.
+- After that use command npm run dev to start the application.
