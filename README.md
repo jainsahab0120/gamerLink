@@ -38,3 +38,5 @@ Designed with an intuitive interface, users can quickly create boards, join disc
 - Go to terminal and do npm install to install dependencies.
 - Get your livekit api keys, Uploadthing token and postgreSQL database url.
 - After that use command npm run dev to start the application.
+
+- I had changed somthing.
